@@ -784,7 +784,7 @@ case 'tag': case 'tagall': case 'all':{
 
  if (!m.isGroup) return replay(mess.grouponly)
  if (!isAdmins && !isCreator) return replay(mess.useradmin)
- let teks = `🧩𝗧𝗮𝗴𝗮𝗹𝗹🧩
+ let teks = `🎗𝗧𝗮𝗴𝗮𝗹𝗹🎗
   
  *Message : ${args.join(" ") ? args.join(" ") : 'no message'}*\n\n`
  for (let mem of participants) {
@@ -861,7 +861,7 @@ case 'tag': case 'tagall': case 'all':{
             
             case "sc": case "script": case"repo": {
 const axios = require("axios");
-let repoInfo = await axios.get("https://api.github.com/repos/Mranjan101/Mr-anjannewbot'");
+let repoInfo = await axios.get("https://api.github.com/repos/OfficialAnjanv2/Maria-MD'");
         let repo = repoInfo.data;
         console.log(repo);
 
@@ -1567,18 +1567,18 @@ case 'truth':
   case 'menu': case 'help': case 'h': 
   const txt = `╭━━━〔★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★〕━━┈⊷
 ╭────────────────⊷
-│ ♡ 𝐔𝐒𝚵𝚪: ${pushname} 
-│ ■ 𝚩𝚯𝚻:  ${botname}
-│ ◇ 𝚸𝚪𝚵𝐅𝚰𝚾:  *${prefix}*
-│ ♧ 𝐃𝚫𝚻𝚵: ${xdate}
-│ ° 𝚻𝚰𝚳𝚵:  ${xtime}
-│ □ 𝚯𝐖𝚴𝚵𝚪: ${ownername}
-│ ¤ 𝛁𝚵𝚪𝐒𝚰𝚯𝚴: ${mver}
-│ ☆ 𝚮𝚯𝐒𝚻: ${os.hostname()}
-│ ▪︎ 𝚸𝐋𝚫𝚻𝐅𝚯𝚪𝚳: ${os.platform()} 
-│ ♡ 𝚪𝐔𝚴𝚻𝚰𝚳𝚵: ${runtime(process.uptime())}
-│ ■ 𝚻𝚯𝚻𝚫𝐋 𝐂𝚯𝚳𝚫𝚴𝐃: ${mariafeature()}
-╰────𝐀𝐍𝐉𝐀𝐍-𝐗𝐃────────┈
+│  𝐔𝐒𝚵𝚪: ${pushname} 
+│  𝚩𝚯𝚻:  ${botname}
+│  𝚸𝚪𝚵𝐅𝚰𝚾:  *${prefix}*
+│  𝐃𝚫𝚻𝚵: ${xdate}
+│  𝚻𝚰𝚳𝚵:  ${xtime}
+│  𝚯𝐖𝚴𝚵𝚪: ${ownername}
+│  𝛁𝚵𝚪𝐒𝚰𝚯𝚴: ${mver}
+│  𝚮𝚯𝐒𝚻: ${os.hostname()}
+│  𝚸𝐋𝚫𝚻𝐅𝚯𝚪𝚳: ${os.platform()} 
+│  𝚪𝐔𝚴𝚻𝚰𝚳𝚵: ${runtime(process.uptime())}
+│  𝚻𝚯𝚻𝚫𝐋 𝐂𝚯𝚳𝚫𝚴𝐃: ${mariafeature()}
+╰────𝐀𝐍𝐉𝐀𝐍-𝐗𝐃─────┈
 ${readmore}
 ┌──⊰ _*GENERAL*_
 │⊳  ${prefix}hi
